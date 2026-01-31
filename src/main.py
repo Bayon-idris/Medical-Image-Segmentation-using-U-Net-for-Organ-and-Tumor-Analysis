@@ -16,7 +16,7 @@ def main():
 
     base_path = Path(
         "D:/Personal Research/computer-vision-project/"
-        "Medical-Image-Segmentation-using-U-Net-for-Organ-and-Tumor-Analysis/data/Task02_Heart"
+        "Medical-Image-Segmentation-using-U-Net-for-Organ-and-Tumor-Analysis/data/Task01_BrainTumour"
     )
 
     dataset = HeartDataset(

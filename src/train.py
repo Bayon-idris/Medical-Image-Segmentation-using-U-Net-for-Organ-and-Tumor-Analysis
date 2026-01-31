@@ -4,7 +4,7 @@ from metrics import dice_score, iou_score
 
 def train_one_epoch(model, loader, optimizer, device):
     model.train()
-    loss_fn = nn.BCEWithLogitsLoss()
+    loss_fn = nn.CrossEntropyLoss()
 
     total_loss, total_dice, total_iou = 0, 0, 0
 
